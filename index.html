@@ -1,4 +1,4 @@
-index<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
@@ -67,12 +67,30 @@ h1 {
   margin: 15px;
 }
 
-.video-box {
-  padding: 35px 15px;
-  border: 2px dashed #8b5b45;
+.video-section {
+  margin: 35px 0;
+}
+
+.video-frame {
+  padding: 8px;
+  border: 2px solid #8b5b45;
   border-radius: 25px;
-  margin-top: 30px;
-  color: #d8b9a5;
+  background: rgba(0,0,0,0.45);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+  overflow: hidden;
+}
+
+.video-frame video {
+  width: 100%;
+  display: block;
+  border-radius: 17px;
+}
+
+.video-caption {
+  margin-top: 15px;
+  color: #f0d6c5;
+  font-size: 17px;
+  line-height: 1.8;
 }
 
 .footer {
@@ -157,4 +175,47 @@ h1 {
       ما أقدر أعرف ماذا تخبئ لنا الأيام القادمة،
       لكن أقدر أقول إن الأيام التي عشتها وأنا أعرفك
       أصبحت جزءًا جميلًا من قصتي.
-     .html
+    </p>
+  </div>
+
+  <div class="video-section">
+    <div class="video-frame">
+      <video controls playsinline>
+        <source src="7994881d7bc6053d93ee140b1e36608c.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="video-caption">
+      بعض اللحظات تبقى في القلب مهما مرّ الوقت ❤️
+    </div>
+  </div>
+
+  <div class="video-section">
+    <div class="video-frame">
+      <video controls playsinline>
+        <source src="5abc7eb09226f64f90093fba28e7bbc1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="video-caption">
+      لأن لكل ذكرى معك مكانًا لا يشبه غيره 🤎
+    </div>
+  </div>
+
+  <div class="video-section">
+    <div class="video-frame">
+      <video controls playsinline>
+        <source src="40c893b10aeb20e62b6ce1d0fa7cf13a1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="video-caption">
+      وهذه مجرد لحظات صغيرة من حكاية كبيرة ❤️
+    </div>
+  </div>
+
+  <div class="footer">
+    قصتنا… وما زالت أجمل صفحاتها لم تُكتب بعد ❤️
+  </div>
+
+</div>
+
+</body>
+</html>
